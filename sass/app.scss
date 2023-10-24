@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+$font-family-sans-serif:'Lexend Deca', sans-serif;
+$font-size-base:0.938rem;
+$primary:hsl(179, 100%, 13%);
+$info:hsl(184, 100%, 22%);
+$warning:hsl(31, 77%, 52%);
+$btn-padding-x:20px;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 12,
+  8: $spacer * 24,
+  9: $spacer * 48,
+  10: $spacer * 96,
+);
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+.info-card{
+    width:19rem;
+}
+.title{
+font-family: 'Big Shoulders Display', sans-serif;;
+}
+.sedan{
+    background-color: white;
+    color:hsl(31, 77%, 52%) ;
+}
+
+.sedan:hover{
+    border: 1px solid white;
+    color:white;
+
+}
+
+.suvs{
+    background-color: white;
+    color:hsl(184, 100%, 22%) ;
+}
+
+.suvs:hover{
+    border: 1px solid white;
+    color:white;
+
+}
+
+.luxury{
+    background-color: white;
+    color:hsl(179, 100%, 13%) ;
+}
+
+.luxury:hover{
+    border: 1px solid white;
+    color:white;
+
+}
